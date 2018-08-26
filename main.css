@@ -1,16 +1,27 @@
 #header {
     background-color: #e47a2e;
+    height: auto;
 }
-#header > h1{
+#header > h1, h2{
     color: whitesmoke;
     text-align: center;
     font-size: 40px;
-    text-shadow: 0 0 20px blue;
+    text-shadow: 0 0 20px blue, 1px 1px 10px lightblue;
 }
+
 #button {
     background-color: #BD3D3A;
 }
 a{
     font-size: 25px;
     padding: 9px;
+}
+#leftSidebar {
+    background-color: #f1ea7f;
+}
+#searchField{
+    background-color: #bcbcbe;
+}
+#inputField{
+    background-color: #d1b894;
 }
