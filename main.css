@@ -1,0 +1,10 @@
+#header {
+    background-color: #e47a2e;
+}
+#header > h1{
+    color: whitesmoke;
+    text-align: center;
+}
+#button {
+    background-color: #BD3D3A;
+}
