@@ -2,11 +2,13 @@
     background-color: #e47a2e;
     height: auto;
 }
-#header > h1, h2{
+#header > h1
+{
     color: whitesmoke;
     text-align: center;
     font-size: 40px;
     text-shadow: 0 0 20px blue, 1px 1px 10px lightblue;
+    padding: 9px;
 }
 
 #button {
@@ -17,11 +19,15 @@ a{
     padding: 9px;
 }
 #leftSidebar {
-    background-color: #f1ea7f;
+    background-color: #f6d155;
 }
-#searchField{
+#leftDeco{
     background-color: #bcbcbe;
 }
-#inputField{
-    background-color: #d1b894;
+#rightDeco{
+    background-color: #bcbcbe;
+}
+#footer{
+    background-color: #e47a2e;
+    paint-order: bottom;
 }
