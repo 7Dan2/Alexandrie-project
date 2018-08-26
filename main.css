@@ -4,7 +4,13 @@
 #header > h1{
     color: whitesmoke;
     text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 20px blue;
 }
 #button {
     background-color: #BD3D3A;
+}
+a{
+    font-size: 25px;
+    padding: 9px;
 }
