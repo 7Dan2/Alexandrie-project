@@ -1,23 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.column::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+body{
+    background-image: url(Bibliotheque.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 #header {
     background-color: #e47a2e;
     height: auto;
 }
-#header > h1
-{
+#header > h1{
     color: whitesmoke;
-    text-align: center;
-    font-size: 40px;
-    text-shadow: 0 0 20px blue, 1px 1px 10px lightblue;
-    padding: 9px;
+    font-family: 'Spirax', cursive;
+    text-align: left;
+    font-size: 50px;
+    text-shadow: 0 0 50px silver, 1px 1px 50px lightblue;
+    padding: 20px;
+}
+#header > h3{
+    text-align: left;
+    color: whitesmoke;
 }
 
 #button {
     background-color: #BD3D3A;
 }
-a{
-    font-size: 25px;
-    padding: 9px;
+ul {
+  list-style-type: none;  
 }
+a{
+    text-decoration: #BD3D3A;
+    font-size: 15px;
+    padding: 1px;
+}
+
 #leftSidebar {
     background-color: #f6d155;
 }
@@ -29,5 +56,5 @@ a{
 }
 #footer{
     background-color: #e47a2e;
-    paint-order: bottom;
+   
 }
